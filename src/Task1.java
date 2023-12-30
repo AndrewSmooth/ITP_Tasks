@@ -1,6 +1,5 @@
-public class Main {
+public class Task1 {
     public static void main(String[] args) {
-        System.out.println("Hello World111111!");
         //1
         System.out.println("---Task 1---");
         System.out.println(convert(5));
@@ -81,7 +80,7 @@ public class Main {
     }
 
     public static int ternaryEvaluation(int x, int y){
-        return x>y? x : y;
+        return x > y? x : y;
     }
 
     public static int howManyItems(float n, float w, float h){
